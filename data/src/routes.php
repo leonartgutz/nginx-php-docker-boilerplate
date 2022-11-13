@@ -12,14 +12,7 @@ try {
   switch ($router->first_level_path()) {
     case '/':
       $router->get();
-      $fetch = new Fetcher('http://10.0.0.115:3000');
-      $comments = $fetch->post([
-        "userId" => 10,
-        "title" => "hello the title",
-        "body" => "hello the body"
-      ]);
-
-      echo $comments;
+      echo 'Hello World!';
       break;
 
     case '/example':
