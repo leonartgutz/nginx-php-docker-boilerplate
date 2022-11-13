@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS example (
+  id SERIAL,
+  name VARCHAR(255) NOT NULL,
+  PRIMARY KEY (id)
+);

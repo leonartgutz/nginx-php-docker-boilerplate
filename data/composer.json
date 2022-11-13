@@ -1,0 +1,21 @@
+{
+    "name": "leonartgutz/nginx-php-docker",
+    "description": "boilerplate for NGINX server with PHP",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leonartgutz\\NginxPhpDocker\\": "src/"
+        },
+        "files": ["./src/Config/bootstrap.php"]
+    },
+    "authors": [
+        {
+            "name": "Leonart Gutz",
+            "email": "leonartgutz@hotmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
